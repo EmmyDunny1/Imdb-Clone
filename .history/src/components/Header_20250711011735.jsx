@@ -11,7 +11,7 @@ export default function Header() {
       <MenuItem title='home' address='/' Icon={AiFillHome} />
       <MenuItem title='about' address='/about' Icon={BsFillInfoCircleFill} />
     </div>
-    <div className='flex gap-1 items-center'>
+    <div className='flex gap-1 '>
       <span className='px-2  py-1 font-bold bg-amber-500 rounded-lg text-2xl'>IMDb</span>
       <span className=' hidden sm:inline text-xl'>Clone</span>
     </div>
