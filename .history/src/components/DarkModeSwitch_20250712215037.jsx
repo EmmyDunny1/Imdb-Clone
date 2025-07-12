@@ -13,7 +13,7 @@ export default function DarkModeSwitch() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; // Prevent hydration mismatch
+   // Prevent hydration mismatch
 
   const currentTheme = theme === "system" ? systemTheme : theme;
 
