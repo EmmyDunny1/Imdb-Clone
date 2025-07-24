@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { Suspense } from "react";
+import {sus}
 import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "@/app/Providers";
@@ -30,9 +30,7 @@ export default function RootLayout({ children }) {
         <Providers>
         <Header />
 
-         <Suspense fallback={<div>Loading navbar...</div>}>
-          <Navbar />
-        </Suspense>
+        <Navbar />
         {children}
         </Providers>
         

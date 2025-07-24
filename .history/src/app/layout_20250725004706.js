@@ -30,9 +30,7 @@ export default function RootLayout({ children }) {
         <Providers>
         <Header />
 
-         <Suspense fallback={<div>Loading navbar...</div>}>
-          <Navbar />
-        </Suspense>
+        <Navbar />
         {children}
         </Providers>
         
