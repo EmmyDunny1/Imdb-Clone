@@ -1,4 +1,4 @@
-'use client'
+'use clientgit jcj'
 import React from 'react'
 import NavbarItem from './NavbarItem'
 

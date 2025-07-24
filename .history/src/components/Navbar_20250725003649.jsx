@@ -1,4 +1,4 @@
-'use client'
+'use clientgit '
 import React from 'react'
 import NavbarItem from './NavbarItem'
 
